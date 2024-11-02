@@ -1,56 +1,141 @@
 <!DOCTYPE html>
 <html lang="es">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width,
-         initial-scale=1.0">
-      <title>Mi Currículum Vitae</title>
-      <link rel="stylesheet" href="styles.css">
-   </head>
-   <body>
-      <header>
-         <h1>Piero Valentino Pazmiño Solórzano</h1>
-         <p>Estudiante ingeniería en ciencias de la computación (ESPOL) | pipasolo@espol.edu.ec |  </p>
-      </header>
-      <nav>
-         <ul>
-            <li><a href="#resumen">Resumen</a></li>
-            <li><a href="#experiencia">Experiencia</a></li>
-            <li><a href="#educacion">Educación</a></li>
-            <li><a href="#habilidades">Habilidades</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-         </ul>
-      </nav>
-      <main>
-         <section id="resumen">
-            <h2>Resumen</h2>
-            <p>Breve descripción de tus habilidades y experiencia.</p>
-         </section>
-         <section id="experiencia">
-            <h2>Experiencia</h2>
-         </section>
-         <section id="educacion">
-            <h2>Educación</h2>
-            <p>graduado en el colegio SEK Guayaquil en el 2020</p>
-         </section>
-         <section id="habilidades">
-            <h2>Habilidades</h2>
-            <ul>computación</ul>
-            <ul>basquet</ul>
-            <ul>english</ul>
-         </section>
-         <section id="proyectos">
-            <h2>Proyectos</h2>
-         </section>
-      </main>
-      <footer>
-      <p>© Piero Pazmiño - 2023</p>
-      <p>hi</p>
-      <ul>
-      <li><a
-         href="https://www.linkedin.com/in/tunombre">LinkedIn</a></li>
-<li><a href="https://github.com/PieroPazmino">GitHub</a></li>
-</ul>
-</footer>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Currículum Vitae - Piero Pazmiño</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon.min.css">
+</head>
+<body>
+
+  <!-- Barra de Navegación -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#proyectos">Proyectos</a></li>
+      <li><a href="#actividades">Actividades</a></li>
+      <li><a href="#ubicacion">Ubicación</a></li>
+      <li><a href="#contacto">Contacto</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+
+    <!-- Encabezado -->
+    <div id="inicio" class="title text-center">
+      <h1>Piero Pazmiño</h1>
+      <h3>Estudiante de Ingeniería en Ciencias de la Computación</h3>
+      <h4>Escuela Superior Politécnica del Litoral (ESPOL), Guayaquil, Ecuador</h4>
+      <hr />
+      <ul class="list-inline">
+        <li><i class="devicon-java-plain colored"></i></li>
+        <li><i class="devicon-javascript-plain colored"></i></li>
+        <li><i class="devicon-c-plain colored"></i></li>
+        <li><i class="devicon-python-plain colored"></i></li>
+      </ul>
+    </div>
+
+    <!-- Educación -->
+    <div id="educacion" class="section">
+      <h2 class="text-center">Educación</h2>
+      <p><strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong></p>
+      <p>Ingeniería en Ciencias de la Computación</p>
+      <p><em>2022 - 2026 (Esperado)</em></p>
+      <br>
+      <p><strong>Colegio Internacional SEK Guayaquil</strong></p>
+      <p>Bachillerato Internacional</p>
+    </div>
+
+    <!-- Habilidades -->
+    <div id="habilidades" class="section">
+      <h2 class="text-center">Habilidades</h2>
+      <div class="row">
+        <div class="col-md-3">
+          <p>Lenguajes de Programación:</p>
+          <ul>
+            <li>Java <i class="devicon-java-plain colored"></i></li>
+            <li>JavaScript <i class="devicon-javascript-plain colored"></i></li>
+            <li>C <i class="devicon-c-plain colored"></i></li>
+            <li>Python <i class="devicon-python-plain colored"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <p>Desarrollo Web:</p>
+          <ul>
+            <li>HTML <i class="devicon-html5-plain colored"></i></li>
+            <li>CSS <i class="devicon-css3-plain colored"></i></li>
+            <li>PHP <i class="devicon-php-plain colored"></i></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <p>Bases de Datos:</p>
+          <ul>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+          <p>Idiomas:</p>
+          <ul>
+            <li>Español (Nativo)</li>
+            <li>Inglés (Avanzado)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Proyectos Académicos -->
+    <div id="proyectos" class="section">
+      <h2 class="text-center">Proyectos Académicos</h2>
+      <p><strong>Simulación de Algoritmos de Búsqueda</strong></p>
+      <p>Desarrollé una aplicación en Python para visualizar el funcionamiento de algoritmos de búsqueda como A* y Dijkstra en un ambiente simulado. Este proyecto ayudó a mejorar mi comprensión de estructuras de datos y algoritmos, así como habilidades de programación en Python.</p>
+      <br>
+      <p><strong>Sitio Web de Portafolio Personal</strong></p>
+      <p>Creé un sitio web personal usando HTML, CSS y PHP, con el objetivo de exhibir mis proyectos y habilidades. Aprendí sobre diseño web y la importancia de la experiencia de usuario en este proyecto.</p>
+    </div>
+
+    <!-- Actividades Extracurriculares -->
+    <div id="actividades" class="section">
+      <h2 class="text-center">Actividades Extracurriculares</h2>
+      <p><strong>Hackathon ESPOL</strong> - Participante</p>
+      <p>Participé en la Hackathon ESPOL, donde colaboré con un equipo para desarrollar una aplicación web en un corto periodo de tiempo. Esta experiencia me enseñó a trabajar bajo presión y a colaborar efectivamente en equipo.</p>
+      <br>
+      <p><strong>Club de Programación ESPOL</strong> - Miembro</p>
+      <p>Formo parte del Club de Programación, donde participo en talleres y competencias de programación. Esta actividad me ha permitido mejorar mis habilidades y aplicar mis conocimientos en desafíos prácticos.</p>
+    </div>
+
+    <!-- Ubicación -->
+    <div id="ubicacion" class="section">
+      <h2 class="text-center">Ubicación</h2>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1994.5983770531297!2d-79.89745370763283!3d-2.1709979407619725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d6e8aa3a4c7cd%3A0x2007a42a3834fa47!2sGuayaquil%2C%20Ecuador!5e0!3m2!1ses-419!2s!4v1674095080668!5m2!1ses-419!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+
+    <!-- Formulario de Contacto -->
+    <div id="contacto" class="contact-form">
+      <h2 class="text-center">Contacto</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+        
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        
+        <button type="submit">Enviar</button>
+      </form>
+      <p class="thank-you-message">Gracias por su solicitud. Procesaremos su contacto lo más pronto posible.</p>
+    </div>
+
+  </div>
+
 </body>
 </html>

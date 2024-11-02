@@ -1,0 +1,144 @@
+/* Estilos Generales */
+body {
+  background: #1B1B25;
+  color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Barra de Navegación */
+.navbar {
+  background: #2C2C38;
+  padding: 10px;
+  text-align: center;
+}
+
+.navbar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #DB4D57;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Encabezado */
+.title {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title h1, .title h3, .title h4 {
+  margin: 10px 0;
+}
+
+.title ul {
+  list-style: none;
+  padding: 0;
+}
+
+.title ul li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 24px;
+}
+
+/* Sección de Educación */
+#educacion p {
+  margin: 5px 0;
+}
+
+/* Sección de Habilidades */
+#habilidades ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#habilidades ul li {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+
+#habilidades ul li i {
+  margin-left: 10px;
+}
+
+/* Proyectos y Actividades */
+#proyectos p, #actividades p {
+  margin: 10px 0;
+}
+
+/* Formulario de Contacto */
+.contact-form {
+  margin-top: 30px;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.contact-form label {
+  display: block;
+  margin: 10px 0 5px;
+}
+
+.contact-form input, .contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background: #2C2C38;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.contact-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #DB4D57;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #c43c4b;
+}
+
+.thank-you-message {
+  text-align: center;
+  display: none; /* Muestra un mensaje al enviar, si usamos JavaScript */
+}
+
+/* Mapa */
+.map {
+  text-align: center;
+  margin-top: 20px;
+}
