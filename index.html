@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículum Vitae - Piero Pazmiño</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="icon1.png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/devicon/2.14.0/devicon.min.css">
 </head>
 <body>
@@ -12,11 +13,9 @@
   <!-- Barra de Navegación -->
   <nav class="navbar">
     <ul>
-      <li><a href="#inicio">Inicio</a></li>
-      <li><a href="#educacion">Educación</a></li>
+      <li><a href="#resumen">Resumen</a></li>
       <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#proyectos">Proyectos</a></li>
-      <li><a href="#actividades">Actividades</a></li>
+      <li><a href="#proyectos">Proyectos y Actividades</a></li>
       <li><a href="#ubicacion">Ubicación</a></li>
       <li><a href="#contacto">Contacto</a></li>
     </ul>
@@ -24,11 +23,18 @@
 
   <div class="container">
 
+    <!-- Resumen -->
+    <div id="resumen" class="section">
+      <h2 class="text-center">Resumen</h2>
+      <p>Soy Piero Pazmiño, estudiante de Ingeniería en Ciencias de la Computación en la ESPOL, en Guayaquil, Ecuador. Con una sólida formación académica desde 2022, me graduaré en 2026. Mis estudios me han permitido desarrollar habilidades en programación y en la resolución de problemas. Mi experiencia incluye proyectos de simulación y desarrollo web. Me destaco por mi habilidad para adaptarme, comunicarme efectivamente y trabajar en equipo en entornos multiculturales.</p>
+    </div>
+
     <!-- Encabezado -->
-    <div id="inicio" class="title text-center">
+    <div class="title text-center">
       <h1>Piero Pazmiño</h1>
       <h3>Estudiante de Ingeniería en Ciencias de la Computación</h3>
       <h4>Escuela Superior Politécnica del Litoral (ESPOL), Guayaquil, Ecuador</h4>
+      <img src="pp1.png" alt="Foto de perfil de Piero Pazmiño" class="profile-pic">
       <hr />
       <ul class="list-inline">
         <li><i class="devicon-java-plain colored"></i></li>
@@ -36,17 +42,6 @@
         <li><i class="devicon-c-plain colored"></i></li>
         <li><i class="devicon-python-plain colored"></i></li>
       </ul>
-    </div>
-
-    <!-- Educación -->
-    <div id="educacion" class="section">
-      <h2 class="text-center">Educación</h2>
-      <p><strong>Escuela Superior Politécnica del Litoral (ESPOL)</strong></p>
-      <p>Ingeniería en Ciencias de la Computación</p>
-      <p><em>2022 - 2026 (Esperado)</em></p>
-      <br>
-      <p><strong>Colegio Internacional SEK Guayaquil</strong></p>
-      <p>Bachillerato Internacional</p>
     </div>
 
     <!-- Habilidades -->
@@ -68,42 +63,25 @@
             <li>HTML <i class="devicon-html5-plain colored"></i></li>
             <li>CSS <i class="devicon-css3-plain colored"></i></li>
             <li>PHP <i class="devicon-php-plain colored"></i></li>
+            <li>SQL <i class="devicon-mysql-plain colored"></i></li>
           </ul>
         </div>
         <div class="col-md-3">
-          <p>Bases de Datos:</p>
+          <p>Otras Habilidades:</p>
           <ul>
-            <li>SQL</li>
-          </ul>
-        </div>
-        <div class="col-md-3">
-          <p>Idiomas:</p>
-          <ul>
-            <li>Español (Nativo)</li>
-            <li>Inglés (Avanzado)</li>
+            <li>Trabajo en equipo</li>
+            <li>Comunicación activa</li>
+            <li>Resolución de problemas</li>
           </ul>
         </div>
       </div>
     </div>
 
-    <!-- Proyectos Académicos -->
+    <!-- Proyectos y Actividades -->
     <div id="proyectos" class="section">
-      <h2 class="text-center">Proyectos Académicos</h2>
-      <p><strong>Simulación de Algoritmos de Búsqueda</strong></p>
-      <p>Desarrollé una aplicación en Python para visualizar el funcionamiento de algoritmos de búsqueda como A* y Dijkstra en un ambiente simulado. Este proyecto ayudó a mejorar mi comprensión de estructuras de datos y algoritmos, así como habilidades de programación en Python.</p>
-      <br>
-      <p><strong>Sitio Web de Portafolio Personal</strong></p>
-      <p>Creé un sitio web personal usando HTML, CSS y PHP, con el objetivo de exhibir mis proyectos y habilidades. Aprendí sobre diseño web y la importancia de la experiencia de usuario en este proyecto.</p>
-    </div>
-
-    <!-- Actividades Extracurriculares -->
-    <div id="actividades" class="section">
-      <h2 class="text-center">Actividades Extracurriculares</h2>
-      <p><strong>Hackathon ESPOL</strong> - Participante</p>
-      <p>Participé en la Hackathon ESPOL, donde colaboré con un equipo para desarrollar una aplicación web en un corto periodo de tiempo. Esta experiencia me enseñó a trabajar bajo presión y a colaborar efectivamente en equipo.</p>
-      <br>
-      <p><strong>Club de Programación ESPOL</strong> - Miembro</p>
-      <p>Formo parte del Club de Programación, donde participo en talleres y competencias de programación. Esta actividad me ha permitido mejorar mis habilidades y aplicar mis conocimientos en desafíos prácticos.</p>
+      <h2 class="text-center">Proyectos y Actividades</h2>
+      <p><strong>Simulación de Algoritmos de Búsqueda con Java</strong> – Implementación de un grafo en el juego de tres en raya. <a href="https://github.com/PieroPazmino/Grupo_11" target="_blank">Repositorio en GitHub</a></p>
+      <p><strong>Sitio Web de Portafolio Personal</strong> – Diseño de un sitio web en HTML, CSS y PHP para presentar habilidades y proyectos.</p>
     </div>
 
     <!-- Ubicación -->
@@ -117,7 +95,7 @@
     <!-- Formulario de Contacto -->
     <div id="contacto" class="contact-form">
       <h2 class="text-center">Contacto</h2>
-      <form action="#" method="post">
+      <form action="#" method="post" onsubmit="showThankYouMessage(event)">
         <label for="nombre">Nombre:</label>
         <input type="text" id="nombre" name="nombre" required>
         
@@ -132,10 +110,16 @@
         
         <button type="submit">Enviar</button>
       </form>
-      <p class="thank-you-message">Gracias por su solicitud. Procesaremos su contacto lo más pronto posible.</p>
+      <p class="thank-you-message" style="display: none;">Gracias por su solicitud. Procesaremos su contacto lo más pronto posible.</p>
     </div>
 
   </div>
 
+  <script>
+    function showThankYouMessage(event) {
+      event.preventDefault();
+      document.querySelector('.thank-you-message').style.display = 'block';
+    }
+  </script>
 </body>
 </html>

@@ -18,6 +18,13 @@ body {
   margin-bottom: 20px;
 }
 
+.profile-pic {
+  width: 200px;
+  height: 230px;
+  border-radius: 50%;
+  margin-top: 15px;
+}
+
 /* Barra de Navegación */
 .navbar {
   background: #2C2C38;
@@ -66,8 +73,8 @@ body {
   font-size: 24px;
 }
 
-/* Sección de Educación */
-#educacion p {
+/* Sección de Educación y Resumen */
+#resumen p {
   margin: 5px 0;
 }
 
@@ -89,7 +96,7 @@ body {
 }
 
 /* Proyectos y Actividades */
-#proyectos p, #actividades p {
+#proyectos p {
   margin: 10px 0;
 }
 
@@ -134,11 +141,25 @@ body {
 
 .thank-you-message {
   text-align: center;
-  display: none; /* Muestra un mensaje al enviar, si usamos JavaScript */
+  display: none;
+  margin-top: 10px;
+  color: #DB4D57;
 }
 
 /* Mapa */
 .map {
   text-align: center;
   margin-top: 20px;
+}
+
+/* Estilo para la sección de resumen */
+#resumen {
+  background: #333;
+  border-radius: 8px;
+  padding: 20px;
+  color: #ddd;
+}
+
+#resumen h2 {
+  color: #DB4D57;
 }
