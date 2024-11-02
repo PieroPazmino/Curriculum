@@ -152,6 +152,10 @@ body {
   margin-top: 20px;
 }
 
+.map iframe {
+  width: 100%; /* Ocupa todo el ancho del contenedor */
+  height: 300px; /* Ajusta la altura según tus preferencias */
+}
 /* Estilo para la sección de resumen */
 #resumen {
   background: #333;
